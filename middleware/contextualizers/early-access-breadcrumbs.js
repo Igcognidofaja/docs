@@ -52,4 +52,4 @@ async function createBreadcrumb (pageArray, context) {
   if (childPage.childPages && context.currentPath !== childPage.href) {
     createBreadcrumb(childPage.childPages, context)
   }
-}
+}docs/middleware/contextualizers/early-access-breadcrumbs.js
